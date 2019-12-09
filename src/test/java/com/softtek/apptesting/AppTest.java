@@ -10,4 +10,9 @@ public class AppTest{
 	public void Suma_Test(){
 		assertEquals(4, mytest.Suma(1,3));
 	}
+	
+	@Test
+	public void Resta_Test(){
+		assertEquals(4, mytest.Resta(8,4));
+	}
 }

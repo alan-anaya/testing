@@ -15,4 +15,9 @@ public class App
     	int result = s1 + s2;
     	return result;
     }
+    
+    public int Resta(int s1, int s2){
+    	int result = s1 - s2;
+    	return result;
+    }
 }
