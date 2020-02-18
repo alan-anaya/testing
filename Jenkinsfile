@@ -19,8 +19,8 @@ pipeline {
 	}
 	post {
 		always{
-			archiveArtifacts artifacts: './target/apptesting-0.0.1-SNAPSHOT.jar', fingerprint: true
-			junit './target/surefire-reports/*.xml'
+			archiveArtifacts artifacts: '/target/apptesting-0.0.1-SNAPSHOT.jar', fingerprint: true
+			junit '/target/surefire-reports/*.xml'
 		}
         }
 }
